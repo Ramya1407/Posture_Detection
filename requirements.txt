@@ -1,0 +1,11 @@
+# Core ML
+torch>=1.13.0
+torchvision>=0.14.0
+
+# Data handling / image I/O
+numpy>=1.21.0
+pillow>=8.0.0
+
+# ONNX export & runtime (if you want to load/test the exported model)
+onnx>=1.12.0
+onnxruntime>=1.13.0
